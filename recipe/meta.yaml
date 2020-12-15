@@ -1,4 +1,4 @@
-{% set version = "0.0.6" %}
+{% set version = "0.0.7" %}
 
 
 package:
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/w/woodwork/woodwork-{{ version }}.tar.gz
-  sha256: e7df74397a3f3760084464ccf4247c8289c9a223d937d738a2d11b0fb6e7dc3d
+  sha256: f1cb379b32e62b77941b705ae92085b0017fb7967c04bbdfd87b4fc9329f0b9d
 
 build:
   entry_points:
@@ -21,8 +21,8 @@ requirements:
     - python >=3.6
     - pip
   run:
-    - numpy >=1.19.1
-    - pandas >=1.1.0
+    - numpy >=1.15.4
+    - pandas >=1.1.1
     - click >=7.1.2
     - scikit-learn >=0.21.3
     - pyarrow >=2.0.0
@@ -49,7 +49,7 @@ test:
 
 about:
   doc_url: https://woodwork.alteryx.com
-  dev_url: https://github.com/Featurelabs/woodwork/
+  dev_url: https://github.com/alteryx/woodwork
   home: https://www.alteryx.com/innovation-labs
   license: BSD-3-Clause
   license_family: BSD
