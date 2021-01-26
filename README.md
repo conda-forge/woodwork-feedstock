@@ -9,7 +9,7 @@ Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/woodwork-feedst
 
 Summary: Woodwork provides you with a common DataTable object to use with Featuretools, EvalML, and general ML.
 
-Development: https://github.com/Featurelabs/woodwork/
+Development: https://github.com/alteryx/woodwork
 
 Documentation: https://woodwork.alteryx.com
 
