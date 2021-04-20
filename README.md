@@ -40,6 +40,7 @@ Installing `woodwork` from the `conda-forge` channel can be achieved by adding `
 
 ```
 conda config --add channels conda-forge
+conda config --set channel_priority strict
 ```
 
 Once the `conda-forge` channel has been enabled, `woodwork` can be installed with:
@@ -119,5 +120,6 @@ Feedstock Maintainers
 =====================
 
 * [@gsheni](https://github.com/gsheni/)
+* [@rwedge](https://github.com/rwedge/)
 * [@thehomebrewnerd](https://github.com/thehomebrewnerd/)
 
