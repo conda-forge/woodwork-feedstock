@@ -12,7 +12,7 @@ source:
 build:
   entry_points:
     - woodwork = woodwork.__main__:cli
-  number: 0
+  number: 1
   noarch: python
   script: {{ PYTHON }} -m pip install . --no-deps -vv
 
@@ -55,7 +55,8 @@ about:
   license: BSD-3-Clause
   license_family: BSD
   license_file: LICENSE
-  summary: Woodwork provides you with a common DataTable object to use with Featuretools, EvalML, and general ML.
+  summary: Woodwork provides a common typing namespace for using your existing DataFrames in Featuretools, EvalML, and general ML.
+
 
 extra:
   recipe-maintainers:
