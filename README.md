@@ -7,7 +7,7 @@ Package license: BSD-3-Clause
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/woodwork-feedstock/blob/master/LICENSE.txt)
 
-Summary: Woodwork provides you with a common DataTable object to use with Featuretools, EvalML, and general ML.
+Summary: Woodwork provides a common typing namespace for using your existing DataFrames in Featuretools, EvalML, and general ML.
 
 Development: https://github.com/alteryx/woodwork
 
