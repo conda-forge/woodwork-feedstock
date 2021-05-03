@@ -1,4 +1,4 @@
-{% set version = "0.2.0" %}
+{% set version = "0.3.0" %}
 
 
 package:
@@ -7,12 +7,12 @@ package:
 
 source:
   url: https://pypi.io/packages/source/w/woodwork/woodwork-{{ version }}.tar.gz
-  sha256: 2725f89d9d685bc9c25e55990d04f79498e9cf749eb6aa0c1bdf18f2be6adbc1
+  sha256: e0737e1cb25686052537dfa9968a8eee80bdfab5106f64c19362814778134477
 
 build:
   entry_points:
     - woodwork = woodwork.__main__:cli
-  number: 1
+  number: 0
   noarch: python
   script: {{ PYTHON }} -m pip install . --no-deps -vv
 
