@@ -22,7 +22,6 @@ requirements:
     - pip
   run:
     - pandas >=1.2.0
-    - click >=7.1.2
     - scikit-learn >=0.22
     - python >=3.7
 
