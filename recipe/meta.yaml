@@ -1,4 +1,4 @@
-{% set version = "0.4.0" %}
+{% set version = "0.4.1" %}
 
 
 package:
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/w/woodwork/woodwork-{{ version }}.tar.gz
-  sha256: 2499bd3ac028572bb67f6c3e71bd09acb124f98724ed917e88b044ac641fa7d6
+  sha256: 738332e550a6a149e68e184fdc5a3e5a0743a2972f9e5cd437f38a4a5ed4374a
 
 build:
   entry_points:
