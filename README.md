@@ -121,5 +121,6 @@ Feedstock Maintainers
 
 * [@gsheni](https://github.com/gsheni/)
 * [@rwedge](https://github.com/rwedge/)
+* [@tamargrey](https://github.com/tamargrey/)
 * [@thehomebrewnerd](https://github.com/thehomebrewnerd/)
 
