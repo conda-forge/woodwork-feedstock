@@ -12,7 +12,7 @@ source:
 build:
   entry_points:
     - woodwork = woodwork.__main__:cli
-  number: 0
+  number: 1
   noarch: python
   script: {{ PYTHON }} -m pip install . --no-deps -vv
 
@@ -36,8 +36,7 @@ test:
     - pytest-xdist ==2.1.0
     - mock >=4.0.3
     - boto3 >=1.10.45
-    - moto >=1.3.14
-    - werkzeug <2.0.0
+    - moto >=2.0.8
     - smart_open >=5.0.0
     - pyarrow >=4.0.1
     - ecdsa <=0.14.1
