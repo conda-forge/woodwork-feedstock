@@ -1,4 +1,4 @@
-{% set version = "0.4.2" %}
+{% set version = "0.5.0" %}
 
 
 package:
@@ -7,12 +7,12 @@ package:
 
 source:
   url: https://pypi.io/packages/source/w/woodwork/woodwork-{{ version }}.tar.gz
-  sha256: 4403046678741cc72ae78df8f7e148dc57ca0336ddb6a912baa90cdf5aa777e8
+  sha256: edea81e745085b1c382bbb57d873eeff6f6aaaaad854542b3b25cd8130bd64a5
 
 build:
   entry_points:
     - woodwork = woodwork.__main__:cli
-  number: 1
+  number: 0
   noarch: python
   script: {{ PYTHON }} -m pip install . --no-deps -vv
 
@@ -21,7 +21,7 @@ requirements:
     - python >=3.7
     - pip
   run:
-    - pandas >=1.2.0, <1.2.5
+    - pandas >=1.2.5
     - scikit-learn >=0.22
     - python >=3.7
 
