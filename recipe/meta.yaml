@@ -50,7 +50,7 @@ test:
 about:
   doc_url: https://woodwork.alteryx.com
   dev_url: https://github.com/alteryx/woodwork
-  home: https://www.alteryx.com/innovation-labs
+  home: https://www.alteryx.com/open-source
   license: BSD-3-Clause
   license_family: BSD
   license_file: LICENSE
@@ -65,3 +65,7 @@ extra:
     - tamargrey
     - dvreed77
     - jeff-hernandez
+    - Cmancuso
+    - HaigDouzy
+    - bchen1116
+    - ParthivNaresh
