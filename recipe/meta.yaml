@@ -1,4 +1,4 @@
-{% set version = "0.13.0" %}
+{% set version = "0.14.0" %}
 
 
 package:
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/w/woodwork/woodwork-{{ version }}.tar.gz
-  sha256: c8f32c14c5fcac4c522c6b53941b1660013e06ee863bd026613a6aa9750d83f2
+  sha256: 222a0070a045ded25e096b212832ae6ef76517c3c1d8ce9e91931d274eaa10b2
 
 build:
   entry_points:
@@ -35,7 +35,7 @@ test:
     - pytest-cov ==2.10.1
     - pytest-xdist ==2.1.0
     - boto3 >=1.10.45
-    - moto >=2.0.8
+    - moto >=3.0.7
     - smart_open >=5.0.0
     - pyarrow >=4.0.1
     - ecdsa <=0.14.1
@@ -50,7 +50,7 @@ test:
 about:
   doc_url: https://woodwork.alteryx.com
   dev_url: https://github.com/alteryx/woodwork
-  home: https://www.alteryx.com/innovation-labs
+  home: https://www.alteryx.com/open-source
   license: BSD-3-Clause
   license_family: BSD
   license_file: LICENSE
@@ -65,3 +65,7 @@ extra:
     - tamargrey
     - dvreed77
     - jeff-hernandez
+    - Cmancuso
+    - HaigDouzy
+    - bchen1116
+    - ParthivNaresh
