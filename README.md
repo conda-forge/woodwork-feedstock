@@ -1,7 +1,7 @@
 About woodwork
 ==============
 
-Home: https://www.alteryx.com/innovation-labs
+Home: https://www.alteryx.com/open-source
 
 Package license: BSD-3-Clause
 
@@ -120,6 +120,10 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
+* [@Cmancuso](https://github.com/Cmancuso/)
+* [@HaigDouzy](https://github.com/HaigDouzy/)
+* [@ParthivNaresh](https://github.com/ParthivNaresh/)
+* [@bchen1116](https://github.com/bchen1116/)
 * [@dvreed77](https://github.com/dvreed77/)
 * [@gsheni](https://github.com/gsheni/)
 * [@jeff-hernandez](https://github.com/jeff-hernandez/)
