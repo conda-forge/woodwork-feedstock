@@ -148,7 +148,6 @@ Feedstock Maintainers
 =====================
 
 * [@Cmancuso](https://github.com/Cmancuso/)
-* [@HaigDouzy](https://github.com/HaigDouzy/)
 * [@ParthivNaresh](https://github.com/ParthivNaresh/)
 * [@bchen1116](https://github.com/bchen1116/)
 * [@dvreed77](https://github.com/dvreed77/)
