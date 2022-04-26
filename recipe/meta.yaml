@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/w/woodwork/woodwork-{{ version }}.tar.gz
-  sha256: cb10618bb5e9acfc4c3eec53b25372599521d582a914482edc2ba612fdcce8e5
+  sha256: 6d9123ac59e16369fe7b50d093bd8db7b90272754916f222df1b2c0bfc1244a0
 
 build:
   entry_points:
