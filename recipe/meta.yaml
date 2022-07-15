@@ -41,9 +41,6 @@ test:
     - smart_open >=5.0.0
     - pyarrow >=4.0.1
     - six >=1.11.0
-    - ecdsa <=0.14.1
-    - rsa ==4.7.2
-    - pyasn1 ==0.4.8
   source_files:
     - woodwork/tests/*
   commands:
