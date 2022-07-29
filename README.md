@@ -153,7 +153,9 @@ Feedstock Maintainers
 * [@dvreed77](https://github.com/dvreed77/)
 * [@gsheni](https://github.com/gsheni/)
 * [@jeff-hernandez](https://github.com/jeff-hernandez/)
+* [@petejanuszewski1](https://github.com/petejanuszewski1/)
 * [@rwedge](https://github.com/rwedge/)
+* [@simha104](https://github.com/simha104/)
 * [@tamargrey](https://github.com/tamargrey/)
 * [@thehomebrewnerd](https://github.com/thehomebrewnerd/)
 
