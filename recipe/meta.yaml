@@ -1,4 +1,4 @@
-{% set version = "0.17.2" %}
+{% set version = "0.18.0" %}
 
 
 package:
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/w/woodwork/woodwork-{{ version }}.tar.gz
-  sha256: b0082790e5df847eade574eaf2405ad469f547c823d30242f46c7df3642af3ec
+  sha256: b4c481e320bc7a0cdc1de487adf99636da16cabf288c0482bbe55e828458588f
 
 build:
   entry_points:
@@ -21,7 +21,7 @@ requirements:
     - pip
     - python >=3.8.*
   run:
-    - pandas >=1.4.0, != 1.4.2
+    - pandas!=1.4.2, >=1.4.0
     - python >=3.8.*
     - python-dateutil >=2.8.1
     - scikit-learn >=0.22
@@ -33,12 +33,10 @@ test:
   requires:
     - boto3 >=1.10.45
     - moto >=3.0.7
-    - pip >=21.3.1
     - pyarrow >=4.0.1
-    - pytest == 7.0.1
-    - pytest-cov == 2.10.1
-    - pytest-xdist == 2.1.0
-    - six >=1.11.0
+    - pytest-cov==2.10.1
+    - pytest-xdist==2.1.0
+    - pytest==7.0.1
     - smart_open >=5.0.0
   source_files:
     - woodwork/tests/*
