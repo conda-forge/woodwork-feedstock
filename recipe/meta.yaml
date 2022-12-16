@@ -12,7 +12,7 @@ source:
 build:
   entry_points:
     - woodwork = woodwork.__main__:cli
-  number: 1
+  number: 0
   noarch: python
   script: {{ PYTHON }} -m pip install . --no-deps -vv
 
