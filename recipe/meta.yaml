@@ -1,4 +1,4 @@
-{% set version = "0.21.0" %}
+{% set version = "0.21.1" %}
 
 
 package:
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/w/woodwork/woodwork-{{ version }}.tar.gz
-  sha256: af126355e642ab9ff9ae91db7d09758bacea9243bd1f35e282b6020f4d748554
+  sha256: ea639d922159d169b425c06ad267dc960788374d0e143631debe9a7338b1ccc2
 
 build:
   entry_points:
@@ -21,6 +21,7 @@ requirements:
     - pip
     - python >=3.8.*
   run:
+    - importlib-resources >=5.10.0
     - pandas !=1.4.2, >=1.4.0
     - python >=3.8.*
     - python-dateutil >=2.8.1
