@@ -1,4 +1,4 @@
-{% set version = "0.21.2" %}
+{% set version = "0.22.0" %}
 
 
 package:
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/w/woodwork/woodwork-{{ version }}.tar.gz
-  sha256: 01eb8c7fc01240bea2329d45ee5a2b2a016c7e060199e82b5aac262efad183b8
+  sha256: 3f49984ef92e934e08c1b4f074c8a25db7fd6c1081512ce21fccab25e8bd71bc
 
 build:
   entry_points:
@@ -36,9 +36,9 @@ test:
     - boto3 >=1.10.45
     - moto >=3.0.7
     - pyarrow >=4.0.1
-    - pytest ==7.0.1
-    - pytest-cov ==2.10.1
-    - pytest-xdist ==2.1.0
+    - pytest >=7.0.1
+    - pytest-cov >=2.10.1
+    - pytest-xdist >=2.1.0
     - smart_open >=5.0.0
   source_files:
     - woodwork/tests/*
