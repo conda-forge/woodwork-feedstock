@@ -1,11 +1,11 @@
-About woodwork
-==============
+About woodwork-feedstock
+========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/woodwork-feedstock/blob/main/LICENSE.txt)
 
 Home: https://www.alteryx.com/open-source
 
 Package license: BSD-3-Clause
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/woodwork-feedstock/blob/main/LICENSE.txt)
 
 Summary: Woodwork provides a common typing namespace for using your existing DataFrames in Featuretools, EvalML, and general ML.
 
