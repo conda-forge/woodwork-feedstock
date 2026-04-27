@@ -6,25 +6,25 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/w/woodwork/woodwork-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/w/woodwork/woodwork-{{ version }}.tar.gz
   sha256: 6ef82af1d5b6525b02efe6417c574c810cfdcc606cb266bd0d7fb17a1d066b67
 
 build:
   entry_points:
     - woodwork = woodwork.__main__:cli
-  number: 0
+  number: 1
   noarch: python
   script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
   host:
     - pip
-    - python >=3.9.*
+    - python {{ python_min }}
   run:
     - importlib-resources >=5.10.0
     - numpy >1.25.0
     - pandas >=2.0.0
-    - python >=3.9.*
+    - python >={{ python_min }}
     - python-dateutil >=2.8.2
     - scikit-learn >=1.1.0
     - scipy >=1.10.0
@@ -40,6 +40,7 @@ test:
     - pytest-cov >=2.10.1
     - pytest-xdist >=2.1.0
     - smart_open >=5.0.0
+    - python {{ python_min }}
   source_files:
     - woodwork/tests/*
   commands:

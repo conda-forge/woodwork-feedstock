@@ -155,6 +155,5 @@ Feedstock Maintainers
 * [@machineAYX](https://github.com/machineAYX/)
 * [@petejanuszewski1](https://github.com/petejanuszewski1/)
 * [@simha104](https://github.com/simha104/)
-* [@tamargrey](https://github.com/tamargrey/)
 * [@thehomebrewnerd](https://github.com/thehomebrewnerd/)
 
